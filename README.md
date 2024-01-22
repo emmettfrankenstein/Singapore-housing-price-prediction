@@ -16,7 +16,7 @@ Exploratory Data Analysis (EDA): Gaining insights into the dataset through basic
 Model Building and Evaluation: Constructing and evaluating Linear Regression, Decision Trees, and K-Nearest Neighbours models for predicting resale prices.
 
 ## Data Source
-The dataset used in this project was collected from Data.gov.sg.
+The dataset used in this project was collected from [Data.gov.sg](https://beta.data.gov.sg/collections/189/view).
 
 ## Project Progress
 ### Data Preprocessing
@@ -41,3 +41,7 @@ Decision Trees are utilized to model resale prices based on key features. Model 
 
 **K-Nearest Neighbours**
 K-Nearest Neighbours is employed to predict resale prices based on the values of its k-nearest neighbors. Model evaluation metrics remain consistent across models.
+
+## Deploying on Streamlit Cloud
+The prediction can now be accessed through a Streamlit app in the following link
+https://singapore-housing-price-prediction.streamlit.app/
