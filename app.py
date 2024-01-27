@@ -28,6 +28,9 @@ storey_range_options = ['10 TO 12', '04 TO 06', '07 TO 09', '01 TO 03', '13 TO 1
 model_filename = r'resale_price_prediction_decision_tree.joblib'
 pipeline = joblib.load(model_filename)
 
+# Streamlit app title
+st.title("Resale Price Prediction App")
+
 # Create a Streamlit sidebar with input fields
 st.sidebar.title("Flat Details")
 town = st.sidebar.selectbox("Town", options=town_options)
@@ -62,5 +65,3 @@ if st.sidebar.button("Predict Resale Price"):
     # Display the prediction
     st.write("Predicted Resale Price:", prediction)
 
-# Streamlit app title
-st.title("Resale Price Prediction App")
